@@ -1,2 +1,5 @@
 Objective-C-Array-Challenge
 ===========================
+The first part of this challenge is to take the 5 people (strings) in the initial array and have them give a gift to another person within the array. They can't give to themselves and cannot give or receive more than once. For this challenge I simply worked through the array with a For loop and had each person give to the next person in the array, unless they were the last person in the array index in which case they would then give to the first person in the array index.
+
+The second part of this challenge is to take the same 5 people and randomize both the givers and the receivers while also taking into consideration the same rules from the first part. For this challenge, I copied the original array into 2 separate NSMutableArrays. I then randomized the order of those array indexes inside of a while loop that ensured the indexes never included the same person. After that is completed, I worked through the first and second NSMutableArrays, each person give to their corresponding index of the opposite NSMutableArray.
