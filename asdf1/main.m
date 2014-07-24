@@ -51,36 +51,6 @@ int main(int argc, const char * argv[]) {
         }
         
         NSLog(@"\n\nFINISED");
-        //        NSLog(@"%@, %@", excerciseArray1, excerciseArray2);
-        //        while ([excerciseArray1[0] isEqualToString:excerciseArray2[0]] || [excerciseArray1[1] isEqualToString:excerciseArray2[1]] || [excerciseArray1[2] isEqualToString:excerciseArray2[2]] || [excerciseArray1[3] isEqualToString:excerciseArray2[3]] || [excerciseArray1[4] isEqualToString:excerciseArray2[4]])
-        //        {
-        //            for (int i = 0; i < arrayCount; i++) {
-        //                NSUInteger a = arc4random() % arrayCount;
-        //                [excerciseArray2 replaceObjectAtIndex:i withObject:excerciseArray1[a]];
-        //            }
-        //            for (int i = 0; i < arrayCount; i++) {
-        //                NSUInteger a = arc4random() % arrayCount;
-        //                [excerciseArray2 replaceObjectAtIndex:i withObject:excerciseArray1[a]];
-        //            }
-        //        }
-        //        NSMutableArray *possibleReceiverArray = [NSMutableArray arrayWithArray:array];
-        //        NSMutableArray *alreadyGivenTo = [[NSMutableArray alloc] init];
-        //
-        //        NSString *giver = nil;
-        //        NSString *receiver = nil;
-        //        for (int i = 0; i < arrayCount; i++) {
-        //            giver = possibleGiverArray[arc4random_uniform([possibleGiverArray count])];
-        //            [possibleGiverArray removeObject:giver];
-        //            [possibleReceiverArray removeObject:giver];
-        //            receiver = possibleReceiverArray[arc4random_uniform([possibleReceiverArray count])];
-        //            [possibleReceiverArray removeObject:receiver];
-        //            NSLog(@"%@ gives to %@", giver, receiver);
-        //            [alreadyGivenTo addObject:receiver];
-        //            if(![alreadyGivenTo containsObject:giver]){
-        //                [possibleReceiverArray addObject:giver];
-        //            }
-        //
-        //        }
         return 0;
     }
 }
